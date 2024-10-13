@@ -1,0 +1,426 @@
+{
+    "setting0": {
+        "label": "0. BigRIPS tuning",
+        "items": [
+            {
+                "id": "setting0_0",
+                "label": "0 - 0. BigRIPS 立ち上げ開始 -> F5 C 標的の密度一様性測定",
+                "startTime": "2024-10-21T09:00",
+                "duration": 6,
+                "locked": true
+            },
+            {
+                "id": "setting0_1",
+                "label": "0 - 1. 2 次ビーム ( 95Zr ) 作成",
+                "startTime": "2024-10-21T15:00",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting0_2",
+                "label": "0 - 2. F7IC の確認",
+                "startTime": "2024-10-21T16:00",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting0_3",
+                "label": "0 - 3. Isomer tag & Ge DAQ と User DAQ の TS merge",
+                "startTime": "2024-10-21T17:00",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting0_4",
+                "label": "0 - 4. F3IC の確認",
+                "startTime": "2024-10-21T18:00",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting0_5",
+                "label": "0 - 5. S3CAN の回路調整や PI の確認 + α (荷電状態、アイソマー比、断面積)",
+                "startTime": "2024-10-21T19:00",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting1": {
+        "label": "1. 132Xe Beam",
+        "items": [
+            {
+                "id": "setting1_0",
+                "label": "1 - 0. 132Xe 200 MeV\/u 設定作成",
+                "startTime": "2024-10-21T20:00",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting1_1",
+                "label": "1 - 1. 132Xe 300 MeV\/u 設定作成",
+                "startTime": "2024-10-21T21:00",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting1_2",
+                "label": "1 - 2. User DAQ 立ち上げ ( 0 - 5 の続き )",
+                "startTime": "2024-10-21T22:00",
+                "duration": 4,
+                "locked": false
+            },
+            {
+                "id": "setting1_3",
+                "label": "1 - 3. DELTA + ESPRI 調整",
+                "startTime": "2024-10-22T02:00",
+                "duration": 6,
+                "locked": false
+            }
+        ]
+    },
+    "setting2": {
+        "label": "2. MESA (132Xe 300MeV\/u)",
+        "items": [
+            {
+                "id": "setting2_0",
+                "label": "2 - 0. 弾性散乱測定",
+                "startTime": "2024-10-22T08:00",
+                "duration": 24,
+                "locked": false
+            }
+        ]
+    },
+    "setting3": {
+        "label": "3. MESA (132Xe 200MeV\/u)",
+        "items": [
+            {
+                "id": "setting3_0",
+                "label": "3 - 0. 弾性散乱測定",
+                "startTime": "2024-10-23T08:00",
+                "duration": 24,
+                "locked": false
+            }
+        ]
+    },
+    "setting4": {
+        "label": "4. S3CAN (設定① 95Zr)",
+        "items": [
+            {
+                "id": "setting4_0",
+                "label": "4 - 0. 設定読み込み",
+                "startTime": "2024-10-24T08:00",
+                "duration": 0.5,
+                "locked": false
+            },
+            {
+                "id": "setting4_1",
+                "label": "4 - 1. 荷電状態の測定",
+                "startTime": "2024-10-24T08:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting4_2",
+                "label": "4 - 2. 断面積の測定",
+                "startTime": "2024-10-24T09:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting4_3",
+                "label": "4 - 3. アイソマー比の測定",
+                "startTime": "2024-10-24T10:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting5": {
+        "label": "5. S3CAN (設定② 99Zr) | アイソマー比 50 % 以上 → 設定 ⑦ 91Zr 設定へ",
+        "items": [
+            {
+                "id": "setting5_0",
+                "label": "5 - 0. 設定作り",
+                "startTime": "2024-10-24T11:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting5_1",
+                "label": "5 - 1. 荷電状態の測定",
+                "startTime": "2024-10-24T12:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting5_2",
+                "label": "5 - 2. 断面積の測定",
+                "startTime": "2024-10-24T13:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting5_3",
+                "label": "5 - 3. アイソマー比の測定",
+                "startTime": "2024-10-24T14:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting6": {
+        "label": "6. S3CAN (設定③ 65Ga)",
+        "items": [
+            {
+                "id": "setting6_0",
+                "label": "6 - 0. 設定作り",
+                "startTime": "2024-10-24T15:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting6_1",
+                "label": "6 - 1. 荷電状態の測定",
+                "startTime": "2024-10-24T16:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting6_2",
+                "label": "6 - 2. 断面積の測定",
+                "startTime": "2024-10-24T17:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting7": {
+        "label": "7. S3CAN (設定④ 50V)",
+        "items": [
+            {
+                "id": "setting7_0",
+                "label": "7 - 0. 設定作り",
+                "startTime": "2024-10-24T18:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting7_1",
+                "label": "7 - 1. 断面積の測定",
+                "startTime": "2024-10-24T19:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting8": {
+        "label": "8. S3CAN (設定⑤ 53V)",
+        "items": [
+            {
+                "id": "setting8_0",
+                "label": "8 - 0. 設定作り",
+                "startTime": "2024-10-24T20:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting8_1",
+                "label": "8 - 1. 断面積の測定",
+                "startTime": "2024-10-24T21:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting9": {
+        "label": "9. S3CAN (設定⑥ 61Fe)",
+        "items": [
+            {
+                "id": "setting9_0",
+                "label": "9 - 0. 設定作り",
+                "startTime": "2024-10-24T22:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting9_1",
+                "label": "9 - 1. 断面積の測定",
+                "startTime": "2024-10-24T23:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting10": {
+        "label": "10. S3CAN (設定⑦ 91Zr)",
+        "items": [
+            {
+                "id": "setting10_0",
+                "label": "10 - 0. 設定作り",
+                "startTime": "2024-10-25T00:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting10_1",
+                "label": "10 - 1. 断面積の測定",
+                "startTime": "2024-10-25T01:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting11": {
+        "label": "11. S3CAN (設定⑧ 87Zr)",
+        "items": [
+            {
+                "id": "setting11_0",
+                "label": "11 - 0. 設定作り",
+                "startTime": "2024-10-25T02:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting11_1",
+                "label": "11 - 1. 断面積の測定",
+                "startTime": "2024-10-25T03:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting12": {
+        "label": "12. S3CAN (設定⑧ 87Zr)",
+        "items": [
+            {
+                "id": "setting12_0",
+                "label": "12 - 0. 設定作り",
+                "startTime": "2024-10-25T04:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting12_1",
+                "label": "12 - 1. 断面積の測定",
+                "startTime": "2024-10-25T05:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting13": {
+        "label": "13. S3CAN (設定⑨ 99Zr)",
+        "items": [
+            {
+                "id": "setting13_0",
+                "label": "13 - 0. 設定作り",
+                "startTime": "2024-10-25T06:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting13_1",
+                "label": "13 - 1. 断面積の測定",
+                "startTime": "2024-10-25T07:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting14": {
+        "label": "14. S3CAN (設定10 103Zr)",
+        "items": [
+            {
+                "id": "setting14_0",
+                "label": "14 - 0. 設定作り",
+                "startTime": "2024-10-25T08:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting14_1",
+                "label": "14 - 1. 断面積の測定",
+                "startTime": "2024-10-25T09:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting15": {
+        "label": "15. S3CAN (設定11 55V)",
+        "items": [
+            {
+                "id": "setting15_0",
+                "label": "15 - 0. 設定作り",
+                "startTime": "2024-10-25T10:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting15_1",
+                "label": "15 - 1. 断面積の測定",
+                "startTime": "2024-10-25T11:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting16": {
+        "label": "16. S3CAN (設定12 64Fe)",
+        "items": [
+            {
+                "id": "setting16_0",
+                "label": "16 - 0. 設定作り",
+                "startTime": "2024-10-25T12:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting16_1",
+                "label": "16 - 1. 断面積の測定",
+                "startTime": "2024-10-25T13:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting17": {
+        "label": "17. S3CAN (設定13 68Ga)",
+        "items": [
+            {
+                "id": "setting17_0",
+                "label": "17 - 0. 設定作り",
+                "startTime": "2024-10-25T14:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting17_1",
+                "label": "17 - 1. 断面積の測定",
+                "startTime": "2024-10-25T15:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting18": {
+        "label": "18. S3CAN (設定14 71Ga)",
+        "items": [
+            {
+                "id": "setting18_0",
+                "label": "18 - 0. 設定作り",
+                "startTime": "2024-10-25T16:30",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting18_1",
+                "label": "18 - 1. 断面積の測定",
+                "startTime": "2024-10-25T17:30",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    }
+}

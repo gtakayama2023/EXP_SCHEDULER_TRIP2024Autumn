@@ -1,0 +1,68 @@
+Python で Flow chart を作りたい 出力は php で下にスクロールしていけるようにする。
+- 各項目が終了したら、チェックボタンを押して灰色になるようにする。→ 次のメニューを強調する
+- 各メニューの所要時間 (Default は以下に書いているが、php 上で編集可能にする) を元に次のメニューの開始時刻を表示する。
+- 各メニュー (SettingX, および SettingX - Y なども) をモジュールにしておき、順番を入れ替えられるようにしておく。
+
+Setting0
+- Setting0 - 0 09/21 開始 09:00 (所要時間 6 時間): IPS 立ち上げ開始 → F5 C 標的の密度一様性測定
+- Setting0 - 1 09/21 (所要時間 1 時間): ２次ビーム (95Zr等) 作成 
+		→ Setting0 - 2 (所要時間 2 時間) F7IC の DAQ 確認 + Isomer tag
+		→ Setting0 - 3 (所要時間 2 時間) Ge DAQ と User DAQ の TS Merge
+		→ Setting0 - 4 (所要時間 2 時間) F3
+
+Setting1
+- Setting1 - 0 09/22 開始 09:00 (所要時間 1 時間) 132Xe 200 MeV/u 設定作成
+- Setting1 - 1 09/22 (所要時間 1 時間) 132Xe 300 MeV/u 設定作成
+- Setting1 - 2 09/22 (所要時間 4 時間) User DAQ 立ち上げ
+- Setting1 - 3 09/22 (所要時間 6 時間) DELTA + ESPRI 調整
+
+Setting2
+- Setting2 - 0 09/23 (所要時間 24 時間) 132Xe 300 MeV/u 測定
+		→ 測定順調か? If yes → 所要時間そのまま
+		→ If no → 所要時間 12 時間に変更
+
+Setting3
+- (所要時間 24 時間) 132Xe 200 MeV/u 測定
+		→ 測定順調か? If yes → 所要時間そのまま 
+		→ If no → 所要時間 12 時間に変更
+
+Setting4 (設定① )
+	  Setting4 - 0. (所要時間 30 min) 95Zr の設定作成
+		Setting4 - 1. 荷電状態の測定 (所要時間 1 時間)
+		Setting4 - 2. 断面積測定 (所要時間 1 時間)
+		Setting4 - 3. アイソマー比測定 (所要時間 1 時間)
+
+Setting5 (設定② )
+ 	  Setting5 - 0. (所要時間 60 min) 99Zr の設定作成
+		Setting5 - 1. 荷電状態の測定 (所要時間 30 min)
+		Setting5 - 2. 断面積測定 (所要時間 1 時間)
+		Setting5 - 3. アイソマー比測定 (所要時間 1 時間)
+
+Setting6 (設定③ )
+		Setting6 - 0. (所要時間 60 min) 65Ga の設定作成
+		Setting6 - 1. 荷電状態の測定 (所要時間 30 min)
+		Setting6 - 2. 断面積測定 (所要時間 1 時間)
+
+Setting7 (設定④ )
+	  Setting7 - 0. (所要時間 60 min) 50V の設定作成
+		Setting7 - 1. 断面積測定 (所要時間 1 時間)
+
+Setting8 (設定⑤ )
+	  Setting8 - 0. (所要時間 60 min) 53V の設定作成
+		Setting8 - 1. 断面積測定 (所要時間 1 時間)
+
+Setting9 (設定⑥ )
+	  Setting9 - 0. (所要時間 60 min) 61Fe の設定作成
+		Setting9 - 1. 断面積測定 (所要時間 1 時間)
+
+Setting10 (設定⑦ )
+		Setting10 - 0. (所要時間 60 min) 91Zr の設定作成
+		Setting10 - 2. 断面積測定 (所要時間 1 時間)
+		Setting10 - 3. アイソマー比測定 (所要時間 1 時間)
+
+基本的には Setting0 から 10 まで通しだが、99Zr の設定のところで、アイソマー比が 50 % 以下なら Setting10 をその次に入れてそれ以外は後ろにずらす。
+
+
+
+
+

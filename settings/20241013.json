@@ -1,0 +1,80 @@
+{
+    "setting0": {
+        "label": "BigRIPS",
+        "items": [
+            {
+                "id": "setting0_1",
+                "label": "Setting0 - 1",
+                "startTime": "2024-10-21T09:00",
+                "duration": 1,
+                "locked": true
+            },
+            {
+                "id": "setting0_2",
+                "label": "Setting0 - 2",
+                "startTime": "2024-10-21T10:00",
+                "duration": 2,
+                "locked": false
+            },
+            {
+                "id": "setting0_3",
+                "label": "Setting0 - 3",
+                "startTime": "2024-10-21T12:00",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting1": {
+        "label": "132Xe",
+        "items": [
+            {
+                "id": "setting1_1",
+                "label": "Setting1 - 1",
+                "startTime": "2024-10-21T13:00",
+                "duration": 1,
+                "locked": false
+            },
+            {
+                "id": "setting1_2",
+                "label": "Setting1 - 2",
+                "startTime": "2024-10-21T14:00",
+                "duration": 2,
+                "locked": false
+            },
+            {
+                "id": "setting1_3",
+                "label": "Setting1 - 3",
+                "startTime": "2024-10-21T16:00",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    },
+    "setting2": {
+        "label": "Setting2 - 1",
+        "items": [
+            {
+                "id": "setting2_1",
+                "label": "Setting2 - 1",
+                "startTime": "2024-10-21T17:00",
+                "duration": 2,
+                "locked": false
+            },
+            {
+                "id": "setting2_2",
+                "label": "Setting2 - 2",
+                "startTime": "2024-10-21T19:00",
+                "duration": 3,
+                "locked": false
+            },
+            {
+                "id": "setting2_3",
+                "label": "Setting2 - 3",
+                "startTime": "2024-10-21T22:00",
+                "duration": 1,
+                "locked": false
+            }
+        ]
+    }
+}

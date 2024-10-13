@@ -1,0 +1,18 @@
+{
+    "0. BigRIPS": [
+        {"id": "0. BigRIPS_1", "label": "Setting0 - 1", "duration": 1, "locked": true},
+        {"id": "0. BigRIPS_2", "label": "Setting0 - 2", "duration": 2, "locked": false},
+        {"id": "0. BigRIPS_3", "label": "Setting0 - 3", "duration": 1, "locked": false}
+    ],
+    "setting1": [
+        {"id": "setting1_1", "label": "Setting1 - 1", "duration": 2, "locked": false},
+        {"id": "setting1_2", "label": "Setting1 - 2", "duration": 3, "locked": false},
+        {"id": "setting1_3", "label": "Setting1 - 3", "duration": 1, "locked": false}
+    ],
+    "setting2": [
+        {"id": "setting2_1", "label": "Setting2 - 1", "duration": 2, "locked": false},
+        {"id": "setting2_2", "label": "Setting2 - 2", "duration": 3, "locked": false},
+        {"id": "setting2_3", "label": "Setting2 - 3", "duration": 1, "locked": false}
+    ]
+}
+
